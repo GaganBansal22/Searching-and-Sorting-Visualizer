@@ -1,0 +1,86 @@
+*{
+    font-family: 'Bodoni Moda', serif;
+}
+.container-options {
+    margin-top: 100px;
+    width: 50%;
+    margin-left: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.option {
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 70px;
+    border-radius: 30px;
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 0, 0, 1) 100%);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition-duration: .5s;
+    transition-property: inherit;
+}
+
+.option:hover {
+    width: 235px;
+    height: 75px;
+    background: rgb(31, 25, 25);
+    background: radial-gradient(circle, rgb(233, 233, 233) 0%, rgb(239, 68, 68) 100%);
+}
+
+.moreOptions {
+    transition-duration: 1s;
+    margin-top: 10px;
+}
+
+.moreOptions>p {
+    transition-duration: .4s;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    transition-property: inherit;
+}
+
+.moreOptions>p:hover {
+    font-size: 1.7rem;
+    color: rgb(181, 181, 181);
+}
+
+.heading {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 100%;
+    font-weight: bold;
+   
+    font-size: 4.5rem;
+    letter-spacing: .5rem;
+      
+}
+
+.p1 {
+    margin-bottom: 0px;
+}
+
+.p2 {
+    margin-top: -20px;
+}
+
+@media only screen and (max-width: 1134px) {
+    .p1{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .heading{
+        font-size: 3rem;
+    }
+    .rounded-circle {
+        left: 75%!important;
+    }
+  }
