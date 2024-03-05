@@ -23,7 +23,7 @@ Sorting Visualizer offers a powerful tool for exploration and understanding.
 - [Supported Algorithms](#supported-algorithms)
 - [Contributing](#contributing)
 ## Installation
-1. Clone the repository to your local machine: git clone https://github.com/your-username/searching-sorting-visualizer.git
+1. Clone the repository to your local machine: git clone https://github.com/GaganBansal22/Searching-and-Sorting-Visualizer.git
 2. Navigate to the project directory
 3. Download dependencies: npm i
 4. Run the Server: npm run dev
