@@ -23,11 +23,11 @@ Sorting Visualizer offers a powerful tool for exploration and understanding.
 - [Supported Algorithms](#supported-algorithms)
 - [Contributing](#contributing)
 ## Installation
-1. Clone the repository to your local machine: git clone https://github.com/GaganBansal22/Searching-and-Sorting-Visualizer.git
+1. Clone the repository to your local machine: `git clone https://github.com/GaganBansal22/Searching-and-Sorting-Visualizer.git`
 2. Navigate to the project directory
-3. Download dependencies: npm i
-4. Run the Server: npm run dev
-5. Open your web browser and navigate to http://localhost:5173/ to access the Searching and Sorting Visualizer.
+3. Download dependencies: `npm i`
+4. Run the Server: `npm run dev`
+5. Open your web browser and navigate to `http://localhost:5173/` to access the Searching and Sorting Visualizer.
 ## Usage
 1. Choose a searching or sorting algorithm from the provided options.
 2. Enter the number to be searched in case of searching algorithm.
